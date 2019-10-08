@@ -1,0 +1,17 @@
+######
+
+Q: Research and understand what a `merge conflict` is and how to resolve it.
+
+A: Happens when there competing commits, it's caused by people making different changes to the same lines in the same file. To resolve it, you need to decide stays and what goes locally on your machine.
+
+Q: Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+
+A: pull - Use it to download and update the local repository to match the content on the remote repository.
+   rebase - It's like merge, integrating the changes into another branch, but it rewrites the commit history make a more linear commit history.
+   merge - puts the history of commits together. Allows you to combine independt lines of development.
+
+Q: Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made
+
+A: reset - it undoes local changes done to a git repo.
+   revert - undoes changes done to the commit history of a repository.
+   clean - deletes untracked files within a repository's directory.
